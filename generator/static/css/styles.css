@@ -1,0 +1,134 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: rgb(245, 245, 245) !important;
+}
+
+label{
+    font-weight: bold;
+}
+
+.title-password{
+    font-weight: 600;
+}
+
+.refresh{
+    cursor: pointer;
+    float: right;
+    margin-top: 16px;
+    color:rgb(42, 209, 126);
+}
+
+.examples{
+    font-weight: normal;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.sub-title{
+    color: rgb(128, 128, 128);
+    letter-spacing: 1px;
+}
+
+.line{
+    border: 4px solid rgb(42, 209, 126);
+    width: 30%;
+    margin: 0 auto;
+    opacity: 100;
+}
+
+.form{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(230, 230, 230);
+    color: #000;
+}
+
+.btn-generate{
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    color: #FFF;
+    background-color: rgb(42, 209, 126);
+    font-weight: 600;
+}
+
+.btn-generate:hover{
+    background-color: rgb(35, 182, 108);
+    transition: all .5s ease;
+}
+
+footer{
+    color: rgb(165, 165, 165);
+    font-size: 13px;
+}
+
+.author{
+    color: rgb(145, 145, 145);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.author:hover{
+    color: rgb(128, 128, 128);
+}
+
+.btn-back{
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    color: #FFF;
+    background-color: rgb(33, 33, 33);
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 60px;
+}
+
+.btn-back:hover{
+    background-color: rgb(14, 14, 14);
+    transition: all .5s ease;
+    color: #FFF;
+}
+
+.btn-copy{
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    color: #FFF;
+    background-color: rgb(42, 209, 126);
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.password-container{
+    border-bottom: 3px solid rgb(42, 209, 126);
+}
+
+.btn-copy-container{
+    display: flex;
+    justify-content: end;
+}
+
+.generated-password{
+    border: none;
+    background-color: transparent;
+    font-size: 26px;
+}
+
+.generated-password:focus{
+    outline: none;
+}
+
+@media(max-width: 445px){
+    .refresh{
+        margin-top: -25px;
+    }
+}
